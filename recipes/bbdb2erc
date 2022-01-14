@@ -1,4 +1,3 @@
 (bbdb2erc
- :repo "unhammer/bbdb2erc"
  :fetcher github
- :version-regexp "v\\.\\(.*\\)")
+ :repo "unhammer/bbdb2erc")
