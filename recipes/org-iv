@@ -1,7 +1,10 @@
-(org-iv :repo "kuangdash/org-iv"
-        :fetcher github
-        :files (:defaults ("default"
-                           "default/org-iv-front-file"
-                           "default/org-back-file"
-                           ("css" "default/css/*")
-                           ("js" "default/js/*"))))
+(org-iv
+ :fetcher github
+ :repo "kuangdash/org-iv"
+ :files (:defaults
+         ("default"
+          "default/org-iv-front-file"
+          "default/org-back-file")
+         ;; FIXME https://github.com/melpa/melpa/pull/3331#issuecomment-1165493621
+         ("default/css" "default/css/*")
+         ("default/js" "default/js/*")))
